@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="warning_email_format">Please use correct email format</string>
+    <string name="warning_passwords_matching">Passwords are not matching !</string>
+    <string name="account_created">Created account successfully !</string>
+    <string name="authentication_failed">Failed to Authenticate!</string>
+    <string name="sign_in_success">Signed in successfully</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="current_password">Current Password</string>
+</resources>

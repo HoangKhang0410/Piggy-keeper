@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.UserFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/user_corner_radius"
+        android:elevation="24dp"
+        android:insetBottom="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/default_avatar" />
+        <TextView
+            android:id="@+id/nameOfUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Nhien Nguyen"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnmanagecard"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_credit"
+            android:text="My credit cards information"
+            android:background="@drawable/corner_radius_full"/>
+        <Button
+            android:id="@+id/btnMap"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_map"
+            android:text="Find nearby banks and ATM"
+            android:background="@drawable/corner_radius_full"/>
+        <Button
+            android:id="@+id/btnCurrenciesExchange"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_exchange"
+            android:text="Money rates exchange"
+            android:background="@drawable/corner_radius_full"/>
+        <Button
+            android:id="@+id/btnInterestRate"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_fixed_interest_rate"
+            android:text="Calculate interest rates"
+            android:background="@drawable/corner_radius_full"/>
+
+        <Button
+            android:id="@+id/btnExport"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_csv"
+            android:text="Export CSV file"
+            android:background="@drawable/corner_radius_full"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_man"
+            android:text="Profile Settings"
+            android:background="@drawable/corner_radius_full"/>
+        <Button
+            android:id="@+id/btnChangePassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_password_mini"
+            android:text="Change Password"
+            android:background="@drawable/corner_radius_full"/>
+
+        <Button
+            android:id="@+id/btnAboutUs"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_information"
+            android:text="About Us"
+            android:background="@drawable/corner_radius_full"/>
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_exit"
+            android:text="Log Out"
+            android:background="@drawable/corner_radius_full"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

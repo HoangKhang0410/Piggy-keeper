@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Piggy Keeper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warning_email_format">Please use correct email format</string>
+    <string name="warning_passwords_matching">Passwords are not matching !</string>
+    <string name="account_created">Created account successfully !</string>
+    <string name="authentication_failed">Failed to Authenticate!</string>
+    <string name="sign_in_success">Signed in successfully</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="current_password">Current Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up_navigation_text">Don\'t have an account? Sign up now</string>
+    <string-array name="currencies">
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <string-array name="currencies2">
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+
+    </string-array>
+    <string-array name="categoriesIncome">
+        <item>Salary</item>
+        <item>Allowance</item>
+        <item>Bonus</item>
+        <item>Side income</item>
+        <item>Investment</item>
+        <item>Temporary income</item>
+        <item>Debt</item>
+        <item>Refund</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="categoriesExpense">
+        <item>Meals</item>
+        <item>Daily spending</item>
+        <item>Entertainment</item>
+        <item>Clothes</item>
+        <item>Cosmetics</item>
+        <item>Healthcare</item>
+        <item>Education</item>
+        <item>Utility bills</item>
+        <item>Travel money</item>
+        <item>House renting</item>
+        <item>Loan</item>
+        <item>Saving</item>
+        <item>Others</item>
+    </string-array>
+</resources>
