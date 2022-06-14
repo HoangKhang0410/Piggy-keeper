@@ -109,15 +109,6 @@
             android:background="@drawable/corner_radius_full"/>
 
         <Button
-            android:id="@+id/btnAboutUs"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:drawableLeft="@drawable/ic_information"
-            android:text="About Us"
-            android:background="@drawable/corner_radius_full"/>
-        <Button
             android:id="@+id/btnLogOut"
             android:layout_width="350dp"
             android:layout_height="wrap_content"

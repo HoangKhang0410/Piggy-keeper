@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.24947916666666667" />
+        <entry key="..\:/Khang/third-year/Kotlin/piggy-keeper/app/src/main/res/layout/activity_user.xml" value="0.296195652173913" />
+        <entry key="..\:/Khang/third-year/Kotlin/piggy-keeper/app/src/main/res/layout/fragment_user.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/activity_map.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.234375" />
         <entry key="app/src/main/res/layout/fragment_current_month.xml" value="0.234375" />

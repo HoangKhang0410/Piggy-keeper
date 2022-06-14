@@ -135,13 +135,13 @@ class UserFragment : Fragment() {
                 it.startActivity(intent)
             }
         }
-        val btnAbout = view?.findViewById<Button>(R.id.btnAboutUs)
-        btnAbout?.setOnClickListener {
-            activity?.let {
-                val intent = Intent(it, AboutActivity::class.java)
-                it.startActivity(intent)
-            }
-        }
+//        val btnAbout = view?.findViewById<Button>(R.id.btnAboutUs)
+//        btnAbout?.setOnClickListener {
+//            activity?.let {
+//                val intent = Intent(it, AboutActivity::class.java)
+//                it.startActivity(intent)
+//            }
+//        }
         val btnSetting = view?.findViewById<Button>(R.id.btnSettings)
         btnSetting?.setOnClickListener {
             activity?.let {
